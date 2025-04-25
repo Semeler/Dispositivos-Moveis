@@ -12,11 +12,11 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Welcome">
-        <Stack.Screen name="Tela Inicial" component={WelcomeScreen} />
-        <Stack.Screen name="Lições" component={LessonsScreen} />
-        <Stack.Screen name="Lição Detalhada" component={LessonDetailScreen} />
-        <Stack.Screen name="Demonstração" component={DemoScreen} />
-      </Stack.Navigator>
+         <Stack.Screen name="Welcome" component={WelcomeScreen} />
+         <Stack.Screen name="Lessons" component={LessonsScreen} />
+         <Stack.Screen name="LessonDetail" component={LessonDetailScreen} />
+         <Stack.Screen name="Demo" component={DemoScreen} />
+       </Stack.Navigator>
     </NavigationContainer>
   );
 }
